@@ -1,0 +1,31 @@
+header {
+    background-color: #343A40;
+    height: 77px;
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #343A40;
+    height: 110px;
+    font-size: 10px;
+    text-align: center;
+    color: white;
+    margin-top: 10px;
+}
+
+.card-sobre-nos {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.card-sobre-nos .card:hover {
+    border: 2px solid #01FF00;
+}
+
+.card-body a{
+    color: black;
+}
+.card-body a:hover {
+    color: #01FF00;
+    text-decoration: none;
+}

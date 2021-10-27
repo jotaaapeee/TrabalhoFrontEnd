@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> tech news 
+    </title>
+    <link rel="shortcut icon" href="assets/img/quad.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/style/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-light navbar-expand-md bg-faded justify-content-center">
+            <a href="index.html" class="navbar-brand d-flex w-50 mr-auto">
+                <img src="assets/img/lg.png" alt="logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsingNavbar3">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="navbar-collapse collapse w-100" id="collapsingNavbar3">
+                <ul class="navbar-nav w-100 justify-content-center">
+                        <li class="nav-item">
+                            <a id="nav-link1" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a id="nav-link2" href="aboutus.html">Sobre Nós</a>
+                        </li>
+                        <li class="nav-item">
+                            <a id="nav-link3" href="formulario.html">Contato</a>
+                        </li>
+                </ul>
+                <ul class="nav navbar-nav ml-auto w-100 justify-content-end">
+                    <li class="nav-item">
+                        <a id="nav-link4" href="loginpage.html">Login</a>
+                    </li>
+                </ul>
+            </div>
+        </nav> 
+    </header>
+
+	<div class="container-fluid">
+        <div class="row">
+            <div class="col">
+                <!---Carousel-->
+                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                    </ol>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img class="d-block w-100" src="assets/img/noticia3.webp" alt="Primeiro Slide">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5 class="subtitulo"><a href="https://g1.globo.com/economia/tecnologia/blog/altieres-rohr/post/2021/03/11/e-mail-de-recuperacao-do-whatsapp-entenda-como-a-verificacao-em-duas-etapas-pode-ser-burlada-para-roubar-uma-conta.ghtml" target="blank">
+                                            E-mail de recuperação do WhatsApp: saiba como evitar golpe que rouba conta mesmo com a verificação em duas etapas</a></h5>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img class="d-block w-100" src="assets/img/newworld.bmp" alt="Segundo Slide">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5 class="subtitulo"><a href="https://www.techtudo.com.br/review/new-world-em-review-game-da-amazon-mistura-rpg-e-acao.ghtml" target="blank">
+                                        New World: game da Amazon agrada com RPG e ação, mas pode melhorar</a></h5>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img class="d-block w-100" src="assets/img/noticia4.jpg" alt="Terceiro Slide">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5 class="subtitulo"><a href="https://g1.globo.com/tecnologia/noticia/2021/10/25/windows-xp-faz-20-anos.ghtml" target="blank">
+                                        Windows XP faz 20 anos: lembra desse monte verde?</a></h5>
+                                </div>
+                            </div>
+                        </div>
+                            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Anterior</span>
+                            </a>
+                            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Próximo</span>
+                            </a>    
+                </div>                     
+            </div>
+        </div>
+            <!---Corpo do site-->    
+            <div class="row">
+                <div class="col-9 align-self-start">
+                    <h5 class="cabecalho">Últimas Notícias</h5>
+                    <div class="wrapper">
+                        <nav id="sidebar">
+                            <li class="news_card">
+                                <div class="card-deck">
+                                    <div class="card">
+                                      <img class="card-img-top" src="assets/img/noticia2.jpg" alt="Card image cap">
+                                      <div class="card-body">
+                                        <h5 class="card-title">
+                                            <a href="https://www.tecmundo.com.br/ciencia/227566-cpi-pedir-suspensao-redes-sociais-bolsonaro.htm" target="blank">
+                                                CPI da Pandemia vai pedir suspensão de Bolsonaro das redes sociais</a></h5>
+                                        <p class="card-text">
+                                            Leite condensado.<br>
+                                            A Comissão Parlamentar de Inquérito (CPI) da Pandemia aprovou, nesta terça-feira (26), um requerimento que pede o banimento do presidente Jair Bolsonaro (sem partido) das redes sociais. O requerimento foi realizado pelo senador Randolfe Rodrigues (Rede/AP), que é vice-presidente da CPI.
+                                        </p>
+                                      </div>
+                                    </div>
+                                    <div class="card">
+                                      <img class="card-img-top" src="assets/img/noticia5.webp" alt="Card image cap">
+                                      <div class="card-body">
+                                        <h5 class="card-title">
+                                            <a href="https://g1.globo.com/tecnologia/noticia/2021/10/23/ipod-completa-20-anos-aparelho-ainda-e-vendido-mas-esta-esquecido-no-site-da-apple.ghtml" target="blank">
+                                                iPod completa 20 anos: aparelho ainda é vendido, mas está 'esquecido' no site da Apple</a></h5>
+                                        <p class="card-text">
+                                            No site da empresa, versão mais recente, lançada em 2019, tem menos destaque que produtos como iPhone, iPad e Mac. Preços do tocador de áudio e vídeo chegam a R$ 3.299.</p>
+                                      </div>
+                                </div>          
+                            </li>
+                            <li class="news_card">
+                                <div class="card-deck">
+                                    <div class="card">
+                                      <img class="card-img-top" src="assets/img/noticia6.webp" alt="Card image cap">
+                                      <div class="card-body">
+                                        <h5 class="card-title">
+                                            <a href="https://g1.globo.com/inovacao/noticia/2021/10/22/conheca-o-kart-voador-cliente-do-brasil-e-um-dos-compradores-do-veiculo-eletrico.ghtml" target="blank">
+                                                Conheça o 'kart voador' de R$ 520.000; cliente do Brasil é um dos compradores do veículo elétrico</a></h5>
+                                        <p class="card-text">
+                                            Desenvolvido pela Jetson Aero, da Suécia, veículo de lazer chega a velocidade máxima de 102 km/h e tem paraquedas de emergência. Primeiras entregas serão em 2022, e empresa não revelou quem é o comprador de Campinas (SP). 
+                                        </p>
+                                      </div>
+                                    </div>
+                                    <div class="card">
+                                      <img class="card-img-top" src="assets/img/noticia7.jpg" alt="Card image cap">
+                                      <div class="card-body">
+                                        <h5 class="card-title">
+                                            <a href="https://jovemnerd.com.br/nerdbunker/mccree-de-overwatch-agora-se-chama-cole-cassidy/" target="blank">
+                                                McCree, de Overwatch, agora se chama Cole Cassidy</a></h5>
+                                        <p class="card-text">
+                                            Desde que as denúncias de assédio e discriminação na Blizzard se tornaram públicas, alguns jogadores pediam para que o personagem Jesse McCree, de Overwatch, mudasse de nome. A empresa então acatou e disse que anunciaria uma nova alcunha para o herói para “melhor representar o que Overwatch significa.”</p>
+                                      </div>
+                                </div>          
+                            </li>
+                            <li class="news_card">
+                                <div class="card-deck">
+                                    <div class="card">
+                                        <img class="card-img-top" src="assets/img/review6.jpg" alt="Imagem de capa do card">
+                                      <div class="card-body">
+                                        <h5 class="card-title">
+                                            <a href="https://www.oficinadanet.com.br/games/38691-review-guardioes-da-galaxia-o-jogo-de-herois-que-merecemos-e-ate-mais" target="blank">
+                                                Guardiões da Galáxia: O jogo de heróis que merecemos, e até mais!</a></h5>
+                                        <p class="card-text">
+                                            Desenvolvido pela Jetson Aero, da Suécia, veículo de lazer chega a velocidade máxima de 102 km/h e tem paraquedas de emergência. Primeiras entregas serão em 2022, e empresa não revelou quem é o comprador de Campinas (SP). 
+                                        </p>
+                                      </div>
+                                    </div>
+                                    <div class="card">
+                                        <img class="card-img-top" src="assets/img/review7.jpg" alt="Imagem de capa do card">
+                                      <div class="card-body">
+                                        <h5 class="card-title">
+                                            <a href="https://www.oficinadanet.com.br/games/38108-review-lost-in-random-a-grande-surpresa-do-ano" target="blank">
+                                                Lost in Random: A grande surpresa do ano?</a></h5>
+                                        <p class="card-text">
+                                            Desenvolvido pela Zoink e publicado pela Electronic Arts, Lost in Random chega em um momento movimentado do ano. Nestes últimos meses de 2021, diversos títulos de peso serão oferecidos aos jogadores, o que pode ofuscar aqueles que tenham um apelo menor.</p>
+                                      </div>
+                                </div>          
+                            </li>
+                        </nav>
+                    </div>
+                </div>
+                <div class="col-3 align-self-end">
+                    <h5 class="cabecalho">Reviews</h5>    
+                    <!---Reviews-->                    
+                    <div class="wrapper">
+                        <nav id="sidebar">
+                                <li class="review_card">
+                                    <div class="card">
+                                        <img class="card-img-top" src="assets/img/review2.jpg" alt="Imagem de capa do card">
+                                        <div class="card-body">
+                                        <p class="card-title">
+                                            <a href="https://gamerview.com.br/reviews/diablo-2-resurrected-review" target="blank">
+                                            Diablo II Resurrected: um remaster exemplar</a></p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="review_card">
+                                    <div class="card">
+                                        <img class="card-img-top" src="assets/img/review3.jpg" alt="Imagem de capa do card">
+                                        <div class="card-body">
+                                        <p class="card-title">
+                                            <a href="https://gamerview.com.br/reviews/demon-slayer-kimetsu-no-yaiba-review" target="blank">
+                                                Demon Slayer  – The Hinokami Chronicles: respiração do sucesso</a></p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="review_card">
+                                    <div class="card">
+                                        <img class="card-img-top" src="assets/img/review4.webp" alt="Imagem de capa do card">
+                                        <div class="card-body">
+                                        <p class="card-title">
+                                            <a href="https://www.uol.com.br/start/ultimas-noticias/2021/10/15/review-metroid-dread-entende-e-repete-com-orgulho-pontos-fortes-da-serie.htm" target="blank">
+                                                Metroid Dread entende e repete, com orgulho, pontos fortes da série</a></p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="review_card">
+                                    <div class="card">
+                                        <img class="card-img-top" src="assets/img/review5.jpg" alt="Imagem de capa do card">
+                                        <div class="card-body">
+                                        <p class="card-title">
+                                            <a href="https://www.uol.com.br/start/ultimas-noticias/2021/10/15/review-back-4-blood-revitaliza-ideias-de-left-4-dead-mas-pune-jogo-offline.htm" target="blank">
+                                                Back 4 Blood revitaliza ideias de Left 4 Dead, mas pune jogo offline</a></p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="review_card">
+                                    <div class="card">
+                                        <img class="card-img-top" src="assets/img/review8.webp" alt="Imagem de capa do card">
+                                        <div class="card-body">
+                                        <p class="card-title">
+                                            <a href="https://www.tecmundo.com.br/voxel/jogos/life-is-strange-true-colors/analise" target="blank">
+                                                Life is Strange: True Colors é envolvente, mas não supera o primeiro game da franquia</a></p>
+                                        </div>
+                                    </div>
+                                </li>                    
+                            </nav>    
+                    </div>                                      
+                </div>
+            </div>
+  
+    <!--Paginação-->        
+    <nav aria-label="Navegação de página exemplo">
+        <ul class="pagination">
+          <li class="page-item disabled">
+            <a class="page-link" href="#" tabindex="-1" aria-label="Anterior">
+              <span aria-hidden="true">&laquo;</span>
+              <span class="sr-only">Anterior</span>
+            </a>
+          </li>
+          <li class="page-item"><a class="page-link" href="#">1</a></li>
+          <li class="page-item disabled"><a class="page-link" href="#" tabindex="-1">2</a></li>
+          <li class="page-item disabled"><a class="page-link" href="#" tabindex="-1">3</a></li>
+          <li class="page-item disabled">
+            <a class="page-link" href="#" tabindex="-1" aria-label="Próximo">
+              <span aria-hidden="true">&raquo;</span>
+              <span class="sr-only">Próximo</span>
+            </a>
+          </li>
+        </ul>
+    </nav>
+            
+    </div>    
+    <!--Bootstrap-->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+        <div class="vw-plugin-top-wrapper"></div>
+    </div>
+    </div>
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+    <script>
+        new window.VLibras.Widget('https://vlibras.gov.br/app');
+    </script>
+
+    <script src="js/script.js"></script>
+
+</body>
+<footer>
+    <img src="assets/img/lg.png" alt="logo">
+    <p>SERRATEC Petrópolis 007 - Grupo 3. © 2021</p>
+</footer>
+</html>

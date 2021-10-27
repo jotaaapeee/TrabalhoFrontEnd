@@ -1,0 +1,150 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap");
+
+*{
+    margin: -2;
+    padding: -2;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    color: #343A40;
+    border: none ;
+}
+
+input, label{
+    display: block;
+    width: 100%;
+}
+input:focus, label:focus{
+    outline: none;
+}
+
+a{
+    color: #01FF00;
+}
+
+body {
+    background-color: #fff;
+    background-size: cover 0,0, 1;
+    background-position-y: -150px;
+    margin: 0;
+}
+
+header{
+    background-color: #343A40;
+    height: 77px;
+    padding: 15px;
+}
+
+.inicio {
+    font-size: 25px;
+    padding: 15px;
+    background-color: #343A40;
+    color: white;
+    text-decoration: none;
+}
+.inicio:hover{
+    color: #01FF00;
+}
+
+#main-container{
+    width: 500px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #fff;
+    border-radius: 10px;
+    padding:25px;
+
+}
+#main-container h1{
+    text-align:center ;
+    margin-bottom: 25px;
+    font-size: 1.6rem;
+
+}
+
+form{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+.full-box{
+    flex: 1 1 100%;
+    position: relative;
+
+}
+.half-box{
+    flex: 1 1 45%;
+    position: relative;
+}
+.spacing {
+    margin-right: 6%;
+}
+label{
+    font-weight: bold;
+    font-size: .8rem;
+}
+input{
+    border-bottom: 2px solid #343A40;
+    padding: 10px;
+    font-size: .9rem;
+    margin-bottom: 40px ;
+}
+input:focus{
+    border-color: #01FF00;
+}
+input[type="submit"]{
+    background-color: #343A40 ;
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 20px;
+    height:40px;
+    cursor: pointer;
+}
+input:focus [type="submit"]{
+    color: #01FF00;
+}
+#agreement{
+    margin-right: 5px;
+
+}
+#agreement, #agreement-label{
+    display: inline-block;
+    width: auto;
+
+}
+
+.error-validation{
+    color: #FF1A1A;
+    position: absolute;
+    top: 57px;
+    font-size: .8rem;
+}
+
+.template{
+    display: none;
+}
+
+footer {
+    background-color: #343A40;
+    height: 110px;
+    font-size: 10px;
+    text-align: center;
+    color: white;
+    margin-top: 10px;
+
+}
+footer p{
+    color: white;
+}
+
+footer img {
+    display: block;
+    height: 80px;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}

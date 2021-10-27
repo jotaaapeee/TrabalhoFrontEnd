@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="shortcut icon" href="assets/img/quad.png" type="image/x-icon">
+    <link rel="stylesheet" href="assets/style/formulario.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <header>
+        <a class="inicio" href="index.html">Home</a>
+    </header>
+
+    <div id="main-container">
+        <h1>Cadastre-se para entrar em contato conosco!</h1>
+
+        <form id="register-form">
+            <div class="full-box">
+                <label for="email">E-mail</label>
+                <input type="email" name="email" id="email" placeholder="example@email.com" data-min-length="3"
+                    data-required data-email-validate>
+            </div>
+            <div class="half-box spacing">
+                <label for="name">Nome</label>
+                <input type="text" name="name" id="name" placeholder="Digite seu nome" data-max-length="14"
+                    data-only-letters data-required>
+            </div>
+
+            <div class="half-box">
+                <label for="lastname">Sobrenome</label>
+                <input type="text" name="lastname" id="lastname" placeholder="Digite seu sobrenome" data-required>
+            </div>
+            <div class="half-box spacing">
+                <label for="password">Senha</label>
+                <input type="password" name="password" id="password" class="password" placeholder="Digite sua senha"
+                    data-required data-password-validate>
+
+            </div>
+            <div class="half-box">
+                <label for="passwordconfirmation">Confirme sua Senha</label>
+                <input type="password" name="passwordconfirmation" id="passwordconfirmation"
+                    placeholder="Confirme sua senha" data-equal="password" data-required data-password-validate>
+            </div>
+            <div class="half-box spacing">
+                <label for="genre">Em qual gênero você se define?</label>
+
+                <select id="genre">
+                    <option selected disable value="">Selecione</option>
+                    <option value="masculino">Masculino</option>
+                    <option value="feminino">Feminino</option>
+                    <option value="outro">Outro</option>
+                </select>
+            </div>
+
+            <div class="half-box">
+                <label for="date">Quando você nasceu?</label>
+                <input type="date" name="date" id="date" max="2015-12-31" min="1900-12-31" data-required>
+            </div>
+            <div class="full-box">
+                <input type="checkbox" name="agreement" id="agreement" data-required>
+                <label for="agreement" id="agreement-label">Eu li e aceito os <a href="#">termos de uso</a>.</label>
+            </div>
+            <div class="full-box">
+                <input type="submit" id="btn-submit" value="Registrar-se">
+            </div>
+
+        </form>
+    </div>
+    <p class="error-validation template"></p>
+    <script src="js/formulario.js"></script>
+    <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+          <div class="vw-plugin-top-wrapper"></div>
+        </div>
+      </div>
+      <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+      <script>
+        new window.VLibras.Widget('https://vlibras.gov.br/app');
+      </script>
+</body>
+<footer>
+    <img src="assets/img/lg.png" alt="logo">
+    <p>SERRATEC Petrópolis 007 - Grupo 3. © 2021</p>
+</footer>
+
+</html>
